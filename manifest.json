@@ -1,0 +1,10 @@
+{
+  "name": "omnibox Extension",
+  "version": "0.0.1",
+  "description": "omnibox",
+  "manifest_version": 2,
+  "background":{
+    "scripts": ["serviceWorker.js"]
+  },
+  "omnibox": { "keyword" : "rz" }
+}
